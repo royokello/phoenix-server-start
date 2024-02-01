@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# Set environment variables
-export PORT=4001
-export MIX_ENV=prod
-
 # Initial setup
 mix deps.get --only prod
 mix compile
