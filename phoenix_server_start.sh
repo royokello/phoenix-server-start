@@ -11,4 +11,4 @@ mix assets.deploy
 mix ecto.migrate
 
 # Finally run the server
-elixir -S mix phx.server
+mix phx.server
