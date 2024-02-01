@@ -11,4 +11,4 @@ mix assets.deploy
 mix ecto.migrate
 
 # Finally run the server
-elixir --erl "-detached" -S mix phx.server
+elixir -S mix phx.server
